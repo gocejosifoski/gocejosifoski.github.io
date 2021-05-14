@@ -8836,7 +8836,7 @@ body {
 }
 @keyframes bang {
   to {
-    box-shadow: -28px -4.6666666667px #00fbff, 83px 7.3333333333px #00ffa2, 181px -253.6666666667px #0011ff, -227px -253.6666666667px #ff006f, -214px -131.6666666667px #48ff00, 78px -245.6666666667px lime, -141px -319.6666666667px #006fff, 180px 61.3333333333px #ffe600, 80px 61.3333333333px fuchsia, -188px -255.6666666667px #ff1100, -162px 65.3333333333px #ccff00, 5px -105.6666666667px #00ffee, 106px -86.6666666667px #b3ff00, 247px -115.6666666667px #4000ff, 178px 47.3333333333px #0004ff, -121px 1.3333333333px #55ff00, -131px -316.6666666667px #ff0073, -12px -200.6666666667px #91ff00, -60px -117.6666666667px #ff00b7, -102px -344.6666666667px #51ff00, -197px -385.6666666667px #ff0091, -120px -273.6666666667px #26ff00, 113px -391.6666666667px #c8ff00, -30px 49.3333333333px #00bbff, 63px -310.6666666667px #ff8400, -176px -270.6666666667px #ff00a2, 117px 54.3333333333px #ff5500, -127px -283.6666666667px #ff4000, 242px -98.6666666667px #ffd500, 85px -40.6666666667px #ff1500, -201px -57.6666666667px #00ff5e, -182px -337.6666666667px #0099ff, 206px -350.6666666667px #00ff0d, 207px -405.6666666667px #80ff00, 160px -289.6666666667px #aaff00, 111px 39.3333333333px #ff0400, -220px -59.6666666667px #84ff00, 145px -102.6666666667px #ff7b00, -104px -222.6666666667px #ff0011, 93px -402.6666666667px #51ff00, 139px -248.6666666667px #00ffbb, -103px 14.3333333333px #003cff, -85px -10.6666666667px #00b3ff, 86px -145.6666666667px #ff003c, -162px -85.6666666667px #f2ff00, 244px -159.6666666667px #00ff37, -236px -190.6666666667px #fff700, -240px -67.6666666667px #0037ff, 145px -390.6666666667px #00ffea, -191px -227.6666666667px #dd00ff, -210px -223.6666666667px #00d0ff;
+    box-shadow: -124px -305.6666666667px #ff0073, 228px 27.3333333333px #7bff00, 66px -28.6666666667px #00ff6a, 150px -253.6666666667px #f200ff, -191px -411.6666666667px #ff00b7, -165px -127.6666666667px #0055ff, 175px -75.6666666667px #00aaff, 75px -35.6666666667px #15ff00, -158px 51.3333333333px #ff0033, 180px -131.6666666667px #ff8000, 213px 81.3333333333px #4dff00, -116px 18.3333333333px #a600ff, -56px 52.3333333333px #26ff00, -240px -32.6666666667px #ff0062, 230px 33.3333333333px #00ff09, -37px 17.3333333333px #1100ff, 164px -286.6666666667px #ffea00, 197px -268.6666666667px #b3ff00, -74px -144.6666666667px #0026ff, -192px -150.6666666667px #ffaa00, 222px -127.6666666667px #2600ff, 155px -19.6666666667px #ff00d9, -57px -141.6666666667px darkorange, 114px -132.6666666667px #2f00ff, -193px -10.6666666667px #eaff00, -162px -288.6666666667px #c4ff00, 232px -25.6666666667px #ff0091, 10px -298.6666666667px #ffc800, 169px -379.6666666667px #9dff00, -177px -403.6666666667px #00fffb, 210px -195.6666666667px #0062ff, 196px -250.6666666667px #66ff00, 156px -389.6666666667px #aaff00, -209px 10.3333333333px #0077ff, 68px -320.6666666667px #ddff00, -76px -191.6666666667px #4dff00, 27px -203.6666666667px #ff0004, 75px 57.3333333333px #bf00ff, -209px -31.6666666667px lime, 117px -238.6666666667px #ff002f, -159px -334.6666666667px #00ff55, -140px -189.6666666667px #99ff00, 222px 48.3333333333px #d000ff, -91px -406.6666666667px #ff8400, 179px 15.3333333333px #ff3300, 126px 32.3333333333px #91ff00, -218px -276.6666666667px #ff0033, 170px -216.6666666667px #00c8ff, 168px -303.6666666667px #0077ff, -76px -209.6666666667px #006fff, -74px -81.6666666667px #fbff00;
   }
 }
 @keyframes gravity {
@@ -8890,6 +8890,7 @@ app-root {
 }
 .app-header {
   display: flex;
+  align-items: center;
   max-width: 1100px;
   padding: 15px 30px;
   margin: auto;
@@ -8920,6 +8921,19 @@ app-root {
   color: #1EFF00;
   border-bottom: 2px solid #1EFF00;
 }
+@media (max-width: 767px) {
+  .app-header ul.menu-items li {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .app-header {
+    padding: 20px;
+  }
+  .app-header img {
+    height: 40px;
+  }
+}
 .home-page-wrapper .home-banner {
   display: flex;
 }
@@ -8931,6 +8945,11 @@ app-root {
 .home-page-wrapper .home-banner .left-column-banner img {
   max-width: 100%;
   width: 400px;
+}
+@media (max-width: 767px) {
+  .home-page-wrapper .home-banner .left-column-banner {
+    display: none;
+  }
 }
 .home-page-wrapper .home-banner .right-column-banner {
   max-width: 480px;
@@ -8946,9 +8965,7 @@ app-root {
 }
 .home-page-wrapper .home-banner .right-column-banner .description {
   font-weight: normal;
-  transform: rotate(7.5deg);
   position: relative;
-  left: -22px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8978,6 +8995,23 @@ app-root {
   right: 40px;
   bottom: 60px;
 }
+@media (min-width: 768px) {
+  .home-page-wrapper .home-banner .right-column-banner .description {
+    left: -22px;
+    transform: rotate(7.5deg);
+  }
+}
+@media (max-width: 767px) {
+  .home-page-wrapper .home-banner .right-column-banner .description .arrow-indicator {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .home-page-wrapper .home-banner .right-column-banner {
+    padding: 0;
+    margin-bottom: 35px;
+  }
+}
 .home-page-wrapper .fee-banner {
   padding: 5px 70px;
   background-color: rgba(5, 3, 16, 0.5);
@@ -9000,12 +9034,17 @@ app-root {
 .home-page-wrapper .fee-banner img {
   height: 30px;
 }
+@media (max-width: 767px) {
+  .home-page-wrapper .fee-banner {
+    zoom: 90%;
+  }
+}
 .home-page-wrapper .stakes h1 {
   text-align: center;
   margin: 35px 0;
 }
 .home-page-wrapper .stakes .stakes-inner-container {
-  width: 950px;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -9045,6 +9084,15 @@ app-root {
   margin: 20px auto auto auto;
   display: flex;
   text-transform: none;
+}
+@media (max-width: 767px) {
+  .home-page-wrapper .stakes .stakes-inner-container {
+    flex-direction: column;
+  }
+  .home-page-wrapper .stakes .stakes-inner-container .stake-box {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 .home-page-wrapper .quest-counter {
   display: flex;
@@ -9116,6 +9164,14 @@ app-root {
 .home-page-wrapper .quest-counter .right-column img {
   max-width: 100%;
   width: 300px;
+}
+@media (max-width: 767px) {
+  .home-page-wrapper .quest-counter {
+    flex-direction: column;
+  }
+  .home-page-wrapper .quest-counter .counter-blurb {
+    margin: 0 0 20px 0 !important;
+  }
 }
 app-footer {
   display: block;
