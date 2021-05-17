@@ -8869,7 +8869,7 @@ body {
 }
 @keyframes bang {
   to {
-    box-shadow: -196px -58.6666666667px #ff9500, 77px -231.6666666667px #ff00cc, -99px -44.6666666667px #003cff, 97px -329.6666666667px #a200ff, -64px -191.6666666667px #ff00bb, -170px -190.6666666667px #ff0080, 99px -138.6666666667px #0015ff, 83px -339.6666666667px #ff008c, -44px -152.6666666667px #00d5ff, 130px -17.6666666667px #00bbff, 15px -347.6666666667px #ffe100, -196px -337.6666666667px #b700ff, 45px -303.6666666667px #1e00ff, 115px 49.3333333333px #15ff00, 50px -57.6666666667px #04ff00, -194px -180.6666666667px #004dff, 129px -24.6666666667px #ff001e, 32px -401.6666666667px #5e00ff, 9px 74.3333333333px #9d00ff, 175px -176.6666666667px #00ffc8, 234px -349.6666666667px #ffa600, -138px -117.6666666667px fuchsia, 247px -271.6666666667px #ff00d0, -90px -189.6666666667px #ff00bb, -33px -281.6666666667px #ff6200, -178px -7.6666666667px #00bbff, 80px -324.6666666667px #73ff00, 180px -208.6666666667px #ff5100, -170px -318.6666666667px #ff0088, -168px -96.6666666667px #0900ff, -209px -137.6666666667px #009dff, -166px 63.3333333333px #00ffc4, 205px -21.6666666667px #a200ff, 242px -271.6666666667px #00ffd5, -11px 0.3333333333px #ff00bb, -108px -3.6666666667px #ff00f7, 111px -334.6666666667px #00ffd0, 244px 7.3333333333px #f200ff, -113px 68.3333333333px #fbff00, 45px -310.6666666667px #09ff00, -192px -110.6666666667px #3700ff, 209px -360.6666666667px #0095ff, 230px -182.6666666667px #0d00ff, 100px -96.6666666667px #00f7ff, 81px -111.6666666667px #ff0026, -233px -284.6666666667px #ff4400, -125px 33.3333333333px #ff004d, -147px -54.6666666667px #d5ff00, -79px -386.6666666667px #00ff77, -82px 72.3333333333px #00f7ff, -174px -168.6666666667px #0084ff;
+    box-shadow: -211px -119.6666666667px #0009ff, 158px -12.6666666667px #00ffcc, -116px -77.6666666667px #0048ff, -106px -367.6666666667px darkorange, -220px 25.3333333333px #00ff62, -139px -246.6666666667px #ffcc00, 133px -378.6666666667px #ff007b, 71px -280.6666666667px #b700ff, 226px -338.6666666667px #2b00ff, -62px -170.6666666667px #ff00f2, 52px -376.6666666667px #c4ff00, 184px -175.6666666667px #ff00b7, -42px -130.6666666667px #ff0077, 179px -343.6666666667px #1e00ff, 196px -35.6666666667px #f200ff, -2px -305.6666666667px #fffb00, -232px -279.6666666667px #0044ff, -184px 9.3333333333px #ff0900, 200px -306.6666666667px #ff0037, 52px 2.3333333333px #ff0037, -33px -52.6666666667px #0066ff, -81px -250.6666666667px #fff200, -32px -410.6666666667px #fff200, -237px -318.6666666667px #ff6a00, 78px -142.6666666667px #33ff00, 195px -143.6666666667px #00ff04, -183px -206.6666666667px #ff0066, -188px -2.6666666667px #00e6ff, -172px -117.6666666667px #bf00ff, 234px 40.3333333333px #5900ff, -45px 21.3333333333px #5100ff, -16px -184.6666666667px #9dff00, -205px 73.3333333333px #00ff3c, 106px -0.6666666667px #ff6a00, -32px -128.6666666667px #ff5500, 65px -41.6666666667px #ff00f7, 89px -167.6666666667px #ff00d0, -92px 43.3333333333px #ff001a, 147px -114.6666666667px #ff0040, -143px -152.6666666667px #ff00bb, 169px -304.6666666667px #0004ff, -38px -340.6666666667px #8000ff, 159px -128.6666666667px #b7ff00, 142px -413.6666666667px #c4ff00, -115px 8.3333333333px #00ff7b, -91px -105.6666666667px #ff8000, -56px -225.6666666667px #007bff, -209px -173.6666666667px #f7ff00, 30px -82.6666666667px #00ccff, 128px -299.6666666667px #00eaff, 155px -59.6666666667px #0044ff;
   }
 }
 @keyframes gravity {
@@ -9018,14 +9018,16 @@ app-root {
   padding: 0;
 }
 .home-page-wrapper .home-banner .right-column-banner .description button a {
-  display: block;
   width: 100%;
-  height: 100%;
   padding: 13px 40px;
   font-size: 22px;
-  line-height: 150%;
+  line-height: 1;
   text-decoration: none;
   color: #ffffff;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home-page-wrapper .home-banner .right-column-banner .description .arrow-indicator {
   position: absolute;
@@ -9143,7 +9145,22 @@ app-root {
 .home-page-wrapper .stakes .stakes-inner-container .stake-box button {
   margin: 20px auto auto auto;
   display: flex;
+  align-items: center;
+  justify-content: center;
   text-transform: none;
+  padding: 0;
+}
+.home-page-wrapper .stakes .stakes-inner-container .stake-box button a {
+  width: 100%;
+  padding: 13px 40px;
+  font-size: 22px;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 767px) {
   .home-page-wrapper .stakes .stakes-inner-container {
@@ -9212,14 +9229,16 @@ app-root {
   padding: 0;
 }
 .home-page-wrapper .quest-counter .left-column .counter-blurb button a {
-  display: block;
   width: 100%;
-  height: 100%;
   padding: 13px 40px;
   font-size: 22px;
-  line-height: 150%;
+  line-height: 1;
   text-decoration: none;
   color: #ffffff;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home-page-wrapper .quest-counter .right-column img {
   max-width: 100%;
