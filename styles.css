@@ -8652,7 +8652,7 @@ body {
   font-family: Myriad Pro;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 150%;
   border-radius: 10px;
   width: 100%;
@@ -8678,7 +8678,7 @@ body {
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-  font-size: 24px;
+  font-size: 20px;
   border: none;
   border-bottom: 2px solid white;
   background: transparent;
@@ -8690,7 +8690,7 @@ body {
   background: transparent;
   outline: none;
   box-shadow: none;
-  border-bottom: 2px solid #1eff00;
+  border-bottom: 2px solid #ffde00;
 }
 .form-group input::placeholder {
   color: white;
@@ -8714,7 +8714,8 @@ body {
 .btn-primary {
   font-family: "Myriad Pro";
   padding: 13px 40px;
-  font-size: 22px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
   font-weight: bold;
   border: none;
   border-radius: 10px;
@@ -8722,11 +8723,9 @@ body {
   background: linear-gradient(270deg, #2A228B 0%, #4C4498 100%);
   transition: all 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
   cursor: pointer;
-  height: 55px;
+  line-height: 1;
+  height: 45px;
   outline: none;
-  color: #ffffff;
-  line-height: 150%;
-  text-transform: uppercase;
 }
 .btn-primary:focus {
   outline: none;
@@ -8742,7 +8741,7 @@ body {
   background-image: url('primary-gradient.svg');
   font-family: "Myriad Pro";
   padding: 13px 40px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   border-radius: 14px;
   box-shadow: 0 3px #0e0a37 !important;
@@ -8753,11 +8752,10 @@ body {
   border: 2px solid #2A7805;
   align-items: center;
   justify-content: center;
-  line-height: 150%;
+  line-height: 1;
   min-width: 270px;
-  height: 55px;
+  height: 45px;
   outline: none;
-  color: #ffffff;
 }
 .btn-secondary:focus {
   outline: none;
@@ -8772,24 +8770,20 @@ body {
 .link {
   font-family: "Myriad Pro";
   font-size: 18px;
-  color: #1eff00;
+  color: #ffde00;
   cursor: pointer;
 }
 .link:hover {
-  color: #1eff00;
+  color: #ffde00;
 }
 .row {
   margin: 0 !important;
 }
 .page-container {
-  padding: 154px 30px 30px 30px;
+  padding: 139px 30px 30px 30px;
 }
 .container {
   max-width: 1440px !important;
-  margin: auto;
-}
-.lowercase {
-  text-transform: lowercase;
 }
 .close-icon {
   cursor: pointer;
@@ -8798,6 +8792,66 @@ body {
 }
 .close-icon:hover {
   transform: scale(1.1);
+}
+.section-separator {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 25px 0;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.table {
+  table-layout: fixed;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.table thead tr {
+  font-family: DK Lemon Yellow Sun;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 0;
+}
+.table thead tr th {
+  border: 0;
+}
+.table thead tr th:first-child {
+  padding-left: 35px;
+}
+.table thead tr th:last-child {
+  padding-right: 35px;
+  text-align: right;
+}
+.table tbody tr {
+  border-radius: 5px;
+}
+.table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.15);
+}
+.table tbody tr td {
+  font-family: Myriad Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  border: 0;
+}
+.table tbody tr td.bold {
+  font-weight: bold;
+}
+.table tbody tr td:first-child {
+  padding-left: 35px;
+  border-radius: 5px 0 0 5px;
+}
+.table tbody tr td:last-child {
+  padding-right: 35px;
+  text-align: right;
+  border-radius: 0 5px 5px 0;
 }
 .animated {
   animation-duration: 0.3s;
@@ -8869,7 +8923,7 @@ body {
 }
 @keyframes bang {
   to {
-    box-shadow: -211px -119.6666666667px #0009ff, 158px -12.6666666667px #00ffcc, -116px -77.6666666667px #0048ff, -106px -367.6666666667px darkorange, -220px 25.3333333333px #00ff62, -139px -246.6666666667px #ffcc00, 133px -378.6666666667px #ff007b, 71px -280.6666666667px #b700ff, 226px -338.6666666667px #2b00ff, -62px -170.6666666667px #ff00f2, 52px -376.6666666667px #c4ff00, 184px -175.6666666667px #ff00b7, -42px -130.6666666667px #ff0077, 179px -343.6666666667px #1e00ff, 196px -35.6666666667px #f200ff, -2px -305.6666666667px #fffb00, -232px -279.6666666667px #0044ff, -184px 9.3333333333px #ff0900, 200px -306.6666666667px #ff0037, 52px 2.3333333333px #ff0037, -33px -52.6666666667px #0066ff, -81px -250.6666666667px #fff200, -32px -410.6666666667px #fff200, -237px -318.6666666667px #ff6a00, 78px -142.6666666667px #33ff00, 195px -143.6666666667px #00ff04, -183px -206.6666666667px #ff0066, -188px -2.6666666667px #00e6ff, -172px -117.6666666667px #bf00ff, 234px 40.3333333333px #5900ff, -45px 21.3333333333px #5100ff, -16px -184.6666666667px #9dff00, -205px 73.3333333333px #00ff3c, 106px -0.6666666667px #ff6a00, -32px -128.6666666667px #ff5500, 65px -41.6666666667px #ff00f7, 89px -167.6666666667px #ff00d0, -92px 43.3333333333px #ff001a, 147px -114.6666666667px #ff0040, -143px -152.6666666667px #ff00bb, 169px -304.6666666667px #0004ff, -38px -340.6666666667px #8000ff, 159px -128.6666666667px #b7ff00, 142px -413.6666666667px #c4ff00, -115px 8.3333333333px #00ff7b, -91px -105.6666666667px #ff8000, -56px -225.6666666667px #007bff, -209px -173.6666666667px #f7ff00, 30px -82.6666666667px #00ccff, 128px -299.6666666667px #00eaff, 155px -59.6666666667px #0044ff;
+    box-shadow: 84px -152.6666666667px #ff0900, -27px -247.6666666667px #00eaff, 1px -411.6666666667px #00ff55, -124px -259.6666666667px #ff00d9, -115px -122.6666666667px #ffbf00, 194px 66.3333333333px #ff009d, -44px -98.6666666667px #ff0066, 234px -20.6666666667px #ff00d9, -65px 47.3333333333px #aeff00, 192px -366.6666666667px #00e6ff, 91px -281.6666666667px #e1ff00, -2px -61.6666666667px #0099ff, 30px -410.6666666667px #1e00ff, 212px -356.6666666667px #11ff00, -34px -368.6666666667px #8400ff, 32px -151.6666666667px #00ffaa, -236px -156.6666666667px #ff2b00, -116px -321.6666666667px #48ff00, 96px -133.6666666667px #b3ff00, 172px -317.6666666667px #00ffea, 68px -395.6666666667px #8800ff, 116px -233.6666666667px #ff00bb, 43px -228.6666666667px #ffc400, 187px 27.3333333333px #66ff00, 117px -80.6666666667px #ff00a6, 95px -384.6666666667px #a2ff00, 115px -337.6666666667px #7b00ff, 249px 9.3333333333px #0088ff, 51px -322.6666666667px #00eaff, 215px 81.3333333333px #ffee00, 47px -94.6666666667px #ff5100, 212px -14.6666666667px #44ff00, -116px -150.6666666667px #ff0015, 139px -22.6666666667px #6aff00, -4px -408.6666666667px #ff0d00, 177px -183.6666666667px #00fff2, -181px 24.3333333333px #00ffa2, -66px -151.6666666667px #00ffbf, -119px -231.6666666667px #ff0084, 216px -195.6666666667px #00ffaa, -108px -314.6666666667px #ff00e1, -114px -6.6666666667px #ff9900, 165px -130.6666666667px #b700ff, -24px -26.6666666667px #002bff, 217px -275.6666666667px #ff004d, -246px -79.6666666667px #44ff00, -97px -247.6666666667px #ae00ff, -223px -166.6666666667px #99ff00, -175px -330.6666666667px #00ff88, -95px 44.3333333333px #00ffa6, -212px -347.6666666667px #ffd500;
   }
 }
 @keyframes gravity {
@@ -8951,8 +9005,8 @@ app-root {
   will-change: color;
 }
 .app-header ul.menu-items li a:hover {
-  color: #1EFF00;
-  border-bottom: 2px solid #1EFF00;
+  color: #ffde00;
+  border-bottom: 2px solid #ffde00;
 }
 @media (max-width: 767px) {
   .app-header ul.menu-items li {
@@ -9020,11 +9074,11 @@ app-root {
 .home-page-wrapper .home-banner .right-column-banner .description button a {
   width: 100%;
   padding: 13px 40px;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1;
   text-decoration: none;
   color: #ffffff;
-  height: 55px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9153,11 +9207,11 @@ app-root {
 .home-page-wrapper .stakes .stakes-inner-container .stake-box button a {
   width: 100%;
   padding: 13px 40px;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1;
   text-decoration: none;
   color: #ffffff;
-  height: 55px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9231,14 +9285,15 @@ app-root {
 .home-page-wrapper .quest-counter .left-column .counter-blurb button a {
   width: 100%;
   padding: 13px 40px;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1;
   text-decoration: none;
   color: #ffffff;
-  height: 55px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
 }
 .home-page-wrapper .quest-counter .right-column img {
   max-width: 100%;
