@@ -1,21 +1,15 @@
-
 //*color skin variables
-
-$pink-color: #D34493;
-$body-text-yellow: #ffde00;
+$yellow: #FFE81F;
+$orange: #F67343;
+$green: #0B5757;
+$dark-green: #003F3F;
+$extra-dark-green: #001B1B;
 $white-text: #ffffff;
 $white-color: #ffffff;
-$dark-blue: #2E2959;
-$light-blue: #393467;
-$dark-shadow: #0E0A37;
-$dark-green: #2A7805;
-$hyper-link: #ffde00;
+$green-status: #00CF78;
+$yellow-status: #EBD300;
+$red-status: #EB3800;
 
-$topBarDarkBlue: #5F7FB7;
-$topBarLightBlue: #8EABE1;
-
-$error: #E20000;
-
-@mixin bg-gradient(){
-  background: linear-gradient(140.98deg, rgba(211, 76, 155, 0.95) 35.89%, rgba(93, 78, 169, 0.95) 93.77%);
+@mixin bg-gradient-status(){
+  background: linear-gradient(90deg, #910000 0%, #92360B 24.55%, #ADC217 33.44%, #ADC217 66.38%, #2CAA00 76.75%, #2CAA00 100.31%), #C4C4C4;
 }

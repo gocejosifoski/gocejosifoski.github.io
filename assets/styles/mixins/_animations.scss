@@ -1,224 +1,44 @@
-//#region vertical-bounce-animation
-.animated {
-  -webkit-animation-duration: .3s;
-  animation-duration: .3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: cubic-bezier(.47,1.64,.41,.8);;
-  animation-timing-function: cubic-bezier(.47,1.64,.41,.8);;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
 }
 
-.bounce {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
+@keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
 }
-@-webkit-keyframes bounce {
-  0%, 100% {
-    -webkit-transform: translateY(0);
+@-webkit-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+  from {background-position: 0;}
+  to {background-position:10000px 0;}
+}
+
+
+
+@keyframes spin {
+  from {
+    transform:rotate(0deg);
   }
-  50% {
-    -webkit-transform: translateY(-5px);
-  }
-}
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-}
-
-//#endregion vertical-bounce-animation
-
-//#region vertical-bounce-animation
-
-.bounce-horizontal {
-  -webkit-animation-name: bounce-horizontal;
-  animation-name: bounce-horizontal;
-}
-@-webkit-keyframes bounce-horizontal {
-  0%, 100% {
-    -webkit-transform: translateX(0);
-  }
-  50% {
-    -webkit-transform: translateX(-5px);
-  }
-}
-@keyframes bounce-horizontal {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-5px);
-  }
-}
-
-//#endregion vertical-bounce-animation
-
-//#region rotate animation
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: cubic-bezier(.47,1.64,.41,.8);;
-  animation-timing-function: cubic-bezier(.47,1.64,.41,.8);;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-}
-
-
-.flip-with-scale {
-  -webkit-animation-name: flip-with-scale;
-  animation-name: flip-with-scale;
-}
-
-@keyframes flip-with-scale {
-  0% {
-    transform: perspective(400px) scaleX(1);
-  }
-
-  100% {
-    transform: perspective(400px) scaleX(-1);
-  }
-}
-
-@keyframes flip-with-rotate {
-  0% {
-    transform: perspective(400px) rotateY(0);
-  }
-
-  100% {
-    transform: perspective(400px) rotateY(180deg);
-  }
-}
-
-//#endregion rotate animation
-
-
-
-$particles: 50;
-$width: 500;
-$height: 500;
-
-// Create the explosion...
-$box-shadow: ();
-$box-shadow2: ();
-@for $i from 0 through $particles {
-  $box-shadow: $box-shadow,
-  random($width)-$width / 2 + px
-  random($height)-$height / 1.2 + px
-  hsl(random(360), 100, 50);
-  $box-shadow2: $box-shadow2, 0 0 #fff
-}
-@mixin keyframes ($animationName) {
-  @-webkit-keyframes #{$animationName} {
-    @content;
-  }
-
-  @-moz-keyframes #{$animationName} {
-    @content;
-  }
-
-  @-o-keyframes #{$animationName} {
-    @content;
-  }
-
-  @-ms-keyframes #{$animationName} {
-    @content;
-  }
-
-  @keyframes #{$animationName} {
-    @content;
-  }
-}
-
-@mixin animation-delay ($settings) {
-  -moz-animation-delay: $settings;
-  -webkit-animation-delay: $settings;
-  -o-animation-delay: $settings;
-  -ms-animation-delay: $settings;
-  animation-delay: $settings;
-}
-
-@mixin animation-duration ($settings) {
-  -moz-animation-duration: $settings;
-  -webkit-animation-duration: $settings;
-  -o-animation-duration: $settings;
-  -ms-animation-duration: $settings;
-  animation-duration: $settings;
-}
-
-@mixin animation ($settings) {
-  -moz-animation: $settings;
-  -webkit-animation: $settings;
-  -o-animation: $settings;
-  -ms-animation: $settings;
-  animation: $settings;
-}
-
-@mixin transform ($settings) {
-  transform: $settings;
-  -moz-transform: $settings;
-  -webkit-transform: $settings;
-  -o-transform: $settings;
-  -ms-transform: $settings;
-}
-
-.confetti > .before, .confetti > .after {
-  position: absolute;
-  left: -10px;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  box-shadow: $box-shadow2;
-  @include animation((1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards));
-}
-
-.confetti > .after {
-  @include animation-delay((1.25s, 1.25s, 1.25s));
-  @include animation-duration((1.25s, 1.25s, 6.25s));
-}
-
-@include keyframes(bang) {
   to {
-    box-shadow:$box-shadow;
+    transform:rotate(360deg);
   }
 }
-
-@include keyframes(gravity)  {
-  to {
-    @include transform(translateY(200px));
-    opacity: 0;
-  }
-}
-
-@include keyframes(position) {
-  0%, 19.9% {
-    margin-top: 10%;
-    margin-left: 40%;
-  }
-  20%, 39.9% {
-    margin-top: 40%;
-    margin-left: 30%;
-  }
-  40%, 59.9% {
-    margin-top: 20%;
-    margin-left: 70%
-  }
-  60%, 79.9% {
-    margin-top: 30%;
-    margin-left: 20%;
-  }
-  80%, 99.9% {
-    margin-top: 30%;
-    margin-left: 80%;
-  }
-}
-
-
-

@@ -1,46 +1,36 @@
-@import '../../../assets/styles/mixins/variables.scss';
+@import './variables.scss';
 
 h1 {
-  font-family: 'DK Lemon Yellow Sun';
-  font-weight: normal;
+  font-family: STARWARS;
   font-style: normal;
-  font-display: swap;
-  color: $body-text-yellow;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.header-lg {
-  font-size: 50px;
-  letter-spacing: 2px;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 0;
+  font-weight: normal;
+  font-size: 35px;
+  letter-spacing: 4px;
+  line-height: 29px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: #0e141c;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffe81f;
 }
 
 h2 {
-  font-family: "Myriad Pro";
-  font-weight: 900;
+  font-family: Myriad Pro;
   font-style: normal;
-  font-display: swap;
-  color: #ffffff;
-  font-size: 20px;
-  text-transform: uppercase;
-  line-height: 1;
-  padding: 18px;
-  box-sizing: border-box;
-  margin: 0;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: $white-text;
 }
 
 h3 {
-  font-family: 'DK Lemon Yellow Sun';
-  font-weight: normal;
+  font-family: Myriad Pro;
   font-style: normal;
-  font-display: swap;
-  color: $body-text-yellow;
-  font-size: 26px;
-  line-height: 150%;
-  letter-spacing: 2px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 0;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $white-text;
+  opacity: 0.8;
 }
 
 body {
@@ -49,5 +39,5 @@ body {
   font-style: normal;
   font-display: swap;
   color: $white-text;
-  font-size: 20px;
+  font-size: 18px;
 }

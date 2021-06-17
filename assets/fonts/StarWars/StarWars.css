@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'STARWARS';
+    src: url('STARWARS.eot');
+    src: url('STARWARS.eot?#iefix') format('embedded-opentype'),
+        url('STARWARS.woff2') format('woff2'),
+        url('STARWARS.woff') format('woff'),
+        url('STARWARS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
