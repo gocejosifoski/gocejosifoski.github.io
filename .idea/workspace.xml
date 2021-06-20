@@ -2,71 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac865b56-3b31-4dc2-a2a9-c8765f7b9a6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DKLemonYellowSun.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DKLemonYellowSun.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DKLemonYellowSun.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DKLemonYellowSun.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyriadPro-Black.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyriadPro-Black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyriadPro-Black.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyriadPro-Black.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Myriad-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Myriad-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Myriad-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Myriad-Bold.woff2" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyriadPro-Regular.eot" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyriadPro-Regular.ttf" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyriadPro-Regular.woff" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyriadPro-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/DKLemonYellowSun/DKLemonYellowSun.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/DKLemonYellowSun/DKLemonYellowSun.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/DKLemonYellowSun/DKLemonYellowSun.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/DKLemonYellowSun/DKLemonYellowSun.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/DKLemonYellowSun/DKl_typography.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Black.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Black.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Black.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/STARWARS.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/STARWARS.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/STARWARS.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/STARWARS.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/Myriad-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/Myriad-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/Myriad-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/Myriad-Bold.woff2" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Regular.eot" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Regular.ttf" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Regular.woff" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro-Regular.woff2" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/MyriadPro/MyriadPro.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/background-repeat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/background.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bag-logo-banner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/avatar-female-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/avatar-male-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/bag-weth-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/bradge-page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/dai-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/eth-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/icon-arrow-indicator.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/usdc-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/wbtc-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/primary-gradient.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/StarWars/STARWARS.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/StarWars/STARWARS.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/StarWars/STARWARS.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/StarWars/STARWARS.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/StarWars/StarWars.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/banner-image.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/border-frame.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/buttons/attack-button.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/buttons/defence-button.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chain-health-background-gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chain-icons-default/binance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chain-icons-default/ethereum.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chain-icons-default/fantom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chain-icons-default/polygon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/gradient-elipse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/health-progress-bar-higher.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/health-progress-bar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/attack-button.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/close-wrapper-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/connection-status.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/current-viewers-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/defence-button.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/health-chield-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/health-shield.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/light-saber-base.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/light-saber-loader.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/select-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/stormtrooper-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/users-info-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icons/weapon-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/main-screen-buttlefield.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/mandalorian-helmet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sky-assets/clouds3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sky-assets/stars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sky-assets/twinkling.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/weapon-icon.svg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/mixins/_animations.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/mixins/_elements.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/mixins/_helpers.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/mixins/_typography.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/mixins/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/background.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/border-frame.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chain-health-background-gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/clouds3.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradient-elipse.svg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/light-saber-loader.svg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/main.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/main.js.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/polyfills.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/polyfills.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/primary-gradient.svg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/runtime.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/runtime.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stars.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/styles.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/styles.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/twinkling.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/vendor.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/vendor.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -137,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,6 +166,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,22 +206,23 @@
       <option name="presentableId" value="Default" />
       <updated>1623915398032</updated>
       <workItem from="1623915399879" duration="344000" />
-      <workItem from="1623915887077" duration="8000" />
+      <workItem from="1623915887077" duration="982000" />
+      <workItem from="1624178867778" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352000" />
+    <option name="totallyTimeSpent" value="1338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="804" extended-state="6" />
+    <frame x="0" y="25" width="1440" height="801" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />

@@ -13,6 +13,11 @@ body {
   border-radius: 10px;
 }
 
+.btn-sm {
+  height: 40px;
+  padding: 0 12px;
+}
+
 .btn-primary {
   font-family: "Myriad Pro";
   font-weight: bold;
@@ -83,6 +88,21 @@ body {
   max-width: 1440px !important;
 }
 
+.input-group-text {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+}
+
+.border-separator {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 20px 0;
+}
+
+.form-control {
+  border-radius: 0.25rem !important;
+}
+
 section:not(.stars-wrapper) {
   z-index: 9999;
   position: relative;
@@ -105,7 +125,11 @@ section:not(.stars-wrapper) {
       }
     }
     .select-label {
-      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      opacity: 0.8;
     }
     .custom-select__trigger {
       height: 45px;
@@ -133,14 +157,16 @@ section:not(.stars-wrapper) {
       display: flex;
       flex-direction: column;
       border: 2px solid white;
-      border-radius: 0 5px 5px 5px;
+      border-radius: 5px;
+      -webkit-backdrop-filter: blur(20px);
       backdrop-filter: blur(20px);
       transform: scale(0);
-      transition: all .3s ease-in-out;
+      transition: all 0.3s ease-in-out;
       position: absolute;
       left: 0;
-      top: 40px;
+      top: 79px;
       white-space: nowrap;
+      z-index: 9999;
       span {
         padding: 10px 15px;
         border-bottom: 1px solid rgba(255,255,255, .3);
@@ -171,6 +197,11 @@ section:not(.stars-wrapper) {
     line-height: 24px;
     .name {
       margin-right: 5px;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      opacity: 0.8;
     }
   }
   input {
@@ -190,6 +221,31 @@ section:not(.stars-wrapper) {
       opacity: 1 !important;
     }
   }
+}
+
+input {
+  &:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #FFE81F !important;
+  }
+}
+
+label {
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.wallet-field {
+  background: rgba(255, 232, 31, 0.2);
+  border: 2px solid #FFE81F;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-bottom: 10px;
 }
 
 .green-shield path {
