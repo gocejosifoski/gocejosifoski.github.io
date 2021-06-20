@@ -163,8 +163,6 @@
   border-radius: 5px;
   padding: 8px 60px 8px 15px;
   cursor: pointer;
-  max-width: -webkit-max-content;
-  max-width: max-content;
   margin-bottom: 10px;
   position: relative;
 }.custom-select-wrapper .select-custom .arrow {
@@ -923,6 +921,14 @@
   background: rgba(235, 56, 0, 0.3);
 }.battle-summary table tbody tr:nth-child(4) {
   background: rgba(255, 255, 255, 0.2);
+}@-moz-document url-prefix() {
+  .main-screens .left-column.force-fields .battle-field .battle-field-inner-wrapper .custom-popup-wrapper {
+    background-color: #003F3F;
+  }
+
+  .custom-select-wrapper .select-custom .custom-options {
+    background-color: black;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map*/
